@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE11F22B28C3934500D090DE /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE11F22A28C3934500D090DE /* Date+Utils.swift */; };
+		EE11F22D28C3949300D090DE /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE11F22C28C3949300D090DE /* AccountSummaryViewController+Networking.swift */; };
 		EE16B0C628B28A1B0015BDA0 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0C528B28A1B0015BDA0 /* AccountSummaryCell.swift */; };
 		EE16B0C828B41AFF0015BDA0 /* DecimalUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0C728B41AFF0015BDA0 /* DecimalUtil.swift */; };
 		EE16B0CA28B41B650015BDA0 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16B0C928B41B650015BDA0 /* CurrencyFormatter.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE11F22A28C3934500D090DE /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		EE11F22C28C3949300D090DE /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		EE16B0C528B28A1B0015BDA0 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		EE16B0C728B41AFF0015BDA0 /* DecimalUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtil.swift; sourceTree = "<group>"; };
 		EE16B0C928B41B650015BDA0 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -189,6 +193,7 @@
 				EE16B0C928B41B650015BDA0 /* CurrencyFormatter.swift */,
 				EE16B0DA28B569E40015BDA0 /* NSNotificationName.swift */,
 				EE16B0DC28B56BF60015BDA0 /* UITextFieldSecureToggle.swift */,
+				EE11F22A28C3934500D090DE /* Date+Utils.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				EEB04A4828B271AC00D3C887 /* AccountSummaryViewController.swift */,
+				EE11F22C28C3949300D090DE /* AccountSummaryViewController+Networking.swift */,
 				EE16B0C328B289C60015BDA0 /* Header */,
 				EE16B0C428B289DC0015BDA0 /* Cells */,
 			);
@@ -314,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB04A4428B263C200D3C887 /* UIViewController+Utils.swift in Sources */,
+				EE11F22B28C3934500D090DE /* Date+Utils.swift in Sources */,
 				EEB04A3228A936A600D3C887 /* LoginView.swift in Sources */,
 				EEB04A3C28AC2EEF00D3C887 /* LocalState.swift in Sources */,
 				EE16B0C828B41AFF0015BDA0 /* DecimalUtil.swift in Sources */,
@@ -330,6 +337,7 @@
 				EEB04A4928B271AC00D3C887 /* AccountSummaryViewController.swift in Sources */,
 				EEB04A1C28A9330400D3C887 /* AppDelegate.swift in Sources */,
 				EEB04A3528AAD21600D3C887 /* OnboardingContainerViewController.swift in Sources */,
+				EE11F22D28C3949300D090DE /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
